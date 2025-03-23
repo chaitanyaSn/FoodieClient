@@ -1,0 +1,75 @@
+.navbar {
+    padding: 10px 20px;
+  }
+  
+  .menubar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .menubar-right i {
+    font-size: 35px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .menubar-right .badge {
+    font-size: 12px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    padding: 3px 7px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+  }
+  
+  .menubar-right button {
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .menubar-right .btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: white;
+  }
+  
+  .menubar-right .btn-outline-success:hover {
+    background-color: #198754;
+    color: white;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #0d6efd;
+  }
+  .cart-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cart-container i {
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  .cart-badge {
+    font-size: 12px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    padding: 3px 6px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+  }
+  
