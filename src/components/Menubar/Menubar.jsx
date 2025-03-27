@@ -48,8 +48,8 @@ const Menubar = () => {
               </span>
             </Link>
 
-            <button className="btn btn-outline-primary">Login</button>
-            <button className="btn btn-outline-success">Register</button>
+            <Link to={'./login'}><button className="btn btn-outline-primary">Login</button></Link>
+           <Link to={'./register'}><button className="btn btn-outline-success">Register</button></Link> 
           </div>
         </div>
       </div>
